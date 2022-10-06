@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  font-family: 'Silkscreen', cursive;
+  font-size: 10rem;
+  color: #FFF600;
+}
+h2{
+  font-family: 'Silkscreen', cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #FFF600;
+}
+h3{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #333146;
+}
+p{
+  font-family: 'Tourney', cursive;
+  line-height: 2;
+}
+hr{
+  color: #003355;
+  border-style: dotted dotted none none;
+  border-width: 10px;
+  width: 20%;
+  margin: 50px auto;
+}
+a{
+    font-family: 'Tourney', cursive;
+}
+/*Top Section*/
+.top-container{
+  padding-top: : 80px;
+  text-align: center;
+  background-color: #000000;
+}
+.middle-container{
+  padding: 100px 0;
+  text-align: center;
+  background-color: #96BB7C;
+}
+.profile{
+  margin: auto;
+  width: 30%;
+}
+.bottom-container{
+  background-color: #D6EFC7;
+  text-align: center;
+  padding: 50px;
+}
+.socmed{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px
+  color: #086972;
+}
+.socmed a{
+  font-size: 24px;
+  color: #086972;
+  border: 1px solid #086972;
+  width: 45px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0.90;
+}
+.socmed a:hover{
+  opacity: 1.5;
+}
+.credit{
+  margin-top: 50px;
+  color: #28544B;
+}
+.prog{
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.skill-row{
+  margin: 80px auto;
+  text-align: left;
+  width: 55%;
+}
+.msg-down{
+  width: 25%;
+  margin: auto auto 50px auto;
+}
+.btn {
+   background: #28544B;
+   background-image: -webkit-linear-gradient(top, #28544B, #5C5E62);
+   background-image: -moz-linear-gradient(top, #28544B, #5C5E62);
+   background-image: -ms-linear-gradient(top, #28544B, #5C5E62);
+   background-image: -o-linear-gradient(top, #28544B, #5C5E62);
+   background-image: -webkit-gradient(to bottom, #28544B, #5C5E62);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+  font-family: 'Tourney', cursive;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 10px 0 #000000;
+   -moz-box-shadow: 1px 1px 10px 0 #000000;
+   box-shadow: 1px 1px 10px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: outset #3F67A1 0;
+   background: #28544B;
+   background-image: -webkit-linear-gradient(top, #28544B, #1B2A3A);
+   background-image: -moz-linear-gradient(top, #28544B, #1B2A3A);
+   background-image: -ms-linear-gradient(top, #28544B, #1B2A3A);
+   background-image: -o-linear-gradient(top, #28544B, #1B2A3A);
+   background-image: -webkit-gradient(to bottom, #28544B, #1B2A3A);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*Images*/
+.pacman{
+  bottom: 500px;
+}
+.soldier{
+  float: left;
+  width: 50%;
+  margin-right: 50px;
+}
+.sports{
+  float: right;
+  width: 50%;
+  margin-left: : 50px;
+}
+.pinky{
+  position: absolute;
+  width: 15%;
+  left: 20px;
+}
+.redman{
+  position: absolute;
+  width: 12%;
+  right: 100px;
+}
